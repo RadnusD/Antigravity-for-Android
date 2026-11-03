@@ -1,0 +1,9 @@
+# Internal project logs & lifecycle files
+DEBUG_HISTORY.md
+architectural.md
+conversational_history.md
+project_status.md
+
+# Local test screenshots & video captures
+screenshots/
+*.mp4
