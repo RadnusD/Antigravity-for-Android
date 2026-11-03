@@ -32,7 +32,7 @@ This project builds on official releases and open source contributions from the 
 Run this command in Termux to install and configure everything automatically using Google's official native Android binary:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/dsundaravadhanan/Antigravity-for-Android/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/RadnusD/Antigravity-for-Android/main/install.sh | bash
 ```
 
 Or if running from a local folder:
@@ -59,7 +59,7 @@ If you are using an older device or prefer the community repack build:
 termux-setup-storage
 pkg install glibc-repo glibc-runner python -y
 curl -fsSL https://raw.githubusercontent.com/wallentx/antigravity-cli-termux/dev/install.sh | bash
-curl -fsSL https://raw.githubusercontent.com/dsundaravadhanan/Antigravity-for-Android/main/patch_gui.sh | bash
+curl -fsSL https://raw.githubusercontent.com/RadnusD/Antigravity-for-Android/main/patch_gui.sh | bash
 ```
 
 ---
@@ -90,7 +90,7 @@ If you prefer to separate the core upstream CLI installation from the Web GUI cu
    ```
 2. **Apply Web GUI Setup**:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/dsundaravadhanan/Antigravity-for-Android/main/install.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/RadnusD/Antigravity-for-Android/main/install.sh | bash
    ```
 
 ### Option B: Wallentx Community CLI (Legacy glibc)
@@ -100,7 +100,7 @@ If you prefer to separate the core upstream CLI installation from the Web GUI cu
    ```
 2. **Apply the legacy Web GUI Patch**:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/dsundaravadhanan/Antigravity-for-Android/main/patch_gui.sh | bash
+   curl -fsSL https://raw.githubusercontent.com/RadnusD/Antigravity-for-Android/main/patch_gui.sh | bash
    ```
    Or if you have the script locally on your phone:
    ```bash
@@ -504,7 +504,7 @@ The Web GUI running on `localhost:4400` is completely separated from the Termux 
 To remove all Web GUI customizations, background daemon services, launchers, and network tweaks:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/dsundaravadhanan/Antigravity-for-Android/main/revert_gui.sh | bash
+curl -fsSL https://raw.githubusercontent.com/RadnusD/Antigravity-for-Android/main/revert_gui.sh | bash
 ```
 
 Or run locally:
@@ -519,7 +519,7 @@ bash revert_gui.sh
 ### How do I install Google Antigravity on Android via Termux?
 Run the automated setup script in Termux:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/dsundaravadhanan/Antigravity-for-Android/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/RadnusD/Antigravity-for-Android/main/install.sh | bash
 ```
 The script requests Termux storage permissions, installs or links Google's official native ARM64 binary (`agy`), configures browser OAuth redirection (`xdg-open` -> `termux-open-url`), applies network latency optimizations, and installs both `agy-gui` and the `agy-service` daemon.
 
@@ -638,7 +638,7 @@ source ~/.bashrc
 ---
 
 ### Need Help or Found a Bug?
-If you encounter any unexpected issues, bugs, or have questions, please report them on the [GitHub Issues](https://github.com/dsundaravadhanan/Antigravity-for-Android/issues) page.
+If you encounter any unexpected issues, bugs, or have questions, please report them on the [GitHub Issues](https://github.com/RadnusD/Antigravity-for-Android/issues) page.
 
 ---
 

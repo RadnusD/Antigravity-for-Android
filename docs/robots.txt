@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dsundaravadhanan.github.io/Antigravity-for-Android/sitemap.xml
+Sitemap: https://radnusd.github.io/Antigravity-for-Android/sitemap.xml
