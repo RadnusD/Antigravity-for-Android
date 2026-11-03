@@ -8,11 +8,11 @@
 
 | 1. Termux One-Line Installation (Live Demo) | 2. Google OAuth Onboarding |
 | :---: | :---: |
-| ![Termux Terminal Installation Demo](assets/01-termux-install.gif) | ![Google OAuth Sign-In](assets/02-google-signin.jpg) |
+| <img src="assets/01-termux-install.gif" width="100%" alt="Termux Terminal Installation Demo" /> | <img src="assets/02-google-signin.jpg" width="100%" alt="Google OAuth Sign-In" /> |
 
 | 3. Mobile Web GUI Chat Workspace | 4. Agent Permissions & Turbo Mode |
 | :---: | :---: |
-| ![Antigravity Web GUI Workspace](assets/03-web-gui-workspace.jpg) | ![Antigravity Settings and Permissions](assets/04-settings-permissions.jpg) |
+| <img src="assets/03-web-gui-workspace.jpg" width="100%" alt="Antigravity Web GUI Workspace" /> | <img src="assets/04-settings-permissions.jpg" width="100%" alt="Antigravity Settings and Permissions" /> |
 
 ---
 
